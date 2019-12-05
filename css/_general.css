@@ -2,3 +2,23 @@ body {
     font-family: Montserrat, sans-serif;
     background-color: #151616;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 610px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1024px) {
+
+}
