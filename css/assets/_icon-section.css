@@ -1,0 +1,64 @@
+.icon-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.dumbbells-img {
+    width: 65px;
+    height: 51px;
+}
+
+.cardio-img {
+    width: 55px;
+    height: 55px;
+}
+
+.pool-img {
+    width: 65px;
+    height: 65px;
+}
+
+.child-img {
+    width: 55px;
+    height: 55px;
+}
+
+.juice-img {
+    width: 65px;
+    height: 55px;
+}
+
+.boxing-img {
+    width: 55px;
+    height: 55px;
+}
+
+.sport-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 22px;
+
+}
+
+.icon-item1 {
+    padding-top: 60px;
+}
+
+.icon-item3 {
+    padding-top: 60px;
+}
+
+.icon-item2 {
+    padding-top: 43px;
+}
