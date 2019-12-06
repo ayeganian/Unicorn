@@ -2,11 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 7px;
+    margin-bottom: 50px;
 }
 
 .main-image {
     width: 100%;
     height: 490px;
+    background-position-x: 72%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -18,15 +21,15 @@
     right: 0;
     bottom: -32px;
     background-color: #F38A03;
-    width: 265px;
+    width: 70%;
     height: 32px;
 }
 
 .main-subtitle {
     position: absolute;
     left: 20px;
-    top: 64px;
-    width: 74%;
+    top: 58px;
+    width: 250px;
     padding: 15px 0 15px 20px;
     color: #FFF;
     font-weight: bold;
@@ -36,28 +39,55 @@
     border: 5px solid #F38A03;
 }
 
-.main-text {
+.section-text {
     color: #FFF;
     font-size: 14px;
     line-height: 17px;
-    margin-top: 50px;
+    padding: 0 30px 0 50px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 25px 0;
+    color: #FFF;
+    padding-left: 50px;
 }
 
 @media (min-width: 1024px) {
+    .main-image-wrapper {
+        margin-top: 15px;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+
     .main-image {
-        width: 70%;
+        width: 90%;
         height: 615px;
+        background-size: cover;
     }
 
     .main-image-wrapper::after {
-        width: 105px;
+        width: 10%;
         height: 520px;
         position: static;
     }
 
-    .main-text {
-        font-size: 25px;
-        line-height: 30px;
-        margin-top: 20px;
+    .main-subtitle {
+        width: 400px;
+        font-size: 45px;
+        line-height: 55px;
+        left: 20px;
+        top: 170px;
+    }
+
+    .section-text {
+        font-size: 22px;
+        line-height: 27px;
+        padding: 0 50px 0 10px;
+    }
+
+    .section-title {
+        padding-left: 10px;
     }
 }
