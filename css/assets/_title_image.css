@@ -39,21 +39,6 @@
     border: 5px solid #F38A03;
 }
 
-.section-text {
-    color: #FFF;
-    font-size: 14px;
-    line-height: 17px;
-    padding: 0 30px 0 50px;
-}
-
-.section-title {
-    font-weight: 500;
-    font-size: 25px;
-    margin: 25px 0;
-    color: #FFF;
-    padding-left: 50px;
-}
-
 @media (min-width: 1024px) {
     .main-image-wrapper {
         margin-top: 15px;
@@ -79,15 +64,5 @@
         line-height: 55px;
         left: 20px;
         top: 170px;
-    }
-
-    .section-text {
-        font-size: 22px;
-        line-height: 27px;
-        padding: 0 50px 0 10px;
-    }
-
-    .section-title {
-        padding-left: 10px;
     }
 }
