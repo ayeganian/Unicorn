@@ -1,0 +1,51 @@
+.map-section {
+    display: flex;
+    justify-content: center;
+}
+.map-wrapper {
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #F38A03;
+}
+.marketing-map-wrap {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, #E34A7B, #4C4184);
+    border-image-slice: 1;
+}
+.danit-map-wrap {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, #5046C7, #1ECDAA);
+    border-image-slice: 1;
+}
+
+.map {
+    background-size: cover;
+    width: 248px;
+    height: 101px;
+}
+.marketing-map{
+    width: 248px;
+    height: 160px;
+}
+.danit-map{
+    width: 287px;
+    height: 208px;
+}
+@media (min-width: 1024px) {
+    .map-wrapper {
+        padding: 30px;
+    }
+    .map {
+        width: 525px;
+        height: 212px;
+    }
+    .marketing-map{
+        width: 551px;
+        height: 281px;
+    }
+    .danit-map{
+        width: 675px;
+        height: 425px;
+    }
+}
