@@ -13,47 +13,77 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="icon-section">
-    <div class="icon-items icon-item1">
-        <div class="dumbbells-img img" style="background-image: url(img/energym-mobile/dumbbells.png)"></div>
-        <p class="sport-text">fitness center group training hall</p>
-    </div>
-    <div class="icon-items icon-item1">
-        <div class="cardio-img img" style="background-image: url(img/energym-mobile/cardio-theatre.png)"></div>
-        <p class="sport-text">cardio theatre</p>
-    </div>
-    <div class="icon-items icon-item2">
-        <div class="pool-img img" style="background-image: url(img/energym-mobile/swimming-pool.png)"></div>
-        <p class="sport-text">professional sports pool 25х15 m with 6 swim lanes и 2 wading pools</p>
-    </div>
-    <div class="icon-items icon-item3">
-        <div class="child-img img" style="background-image: url(img/energym-mobile/smiling-baby.png)"></div>
-        <p class="sport-text">children’s club EnerKid 500 q.m.</p>
-    </div>
-    <div class="icon-items icon-item2">
-        <div class="juice-img img" style="background-image: url(img/energym-mobile/juice.png)"></div>
-        <p class="sport-text">fitness bar</p>
-    </div>
-    <div class="icon-items icon-item2">
-        <div class="boxing-img img" style="background-image: url(img/energym-mobile/boxing-gloves.png)"></div>
-        <p class="sport-text">fight club</p>
-    </div>
-</div>
+<div class="basic-container">
+    <header class="header header-container">
+        <a href="#" class="logo-link">
+            <div class="logo" style="background-image: url(img/logo.png);"></div>
+        </a>
+        <div class="icon-container" style="background-image: url(img/menu.png);"></div>
+        <div class="navbar">
+            <ul class="menu-items">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Business</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Contacts</a>
+                </li>
 
-<div class="footer-section">
-    <h6 class="h6-contacts-text">Contacts</h6>
-    <div class="flex-footer-section">
-        <div class="flex-column">
-            <div class="footer-img" style="background-image: url(img/energym-mobile/email.png)"></div>
-            <div class="footer-img" style="background-image: url(img/energym-mobile/call.png)"></div>
-            <div class="footer-img" style="background-image: url(img/energym-mobile/location.png)"></div>
+                <select class="menu-item" id="lang_choice_1">
+                    <option class="navbar__lang-list menu-link" value="/en">Ru</option>
+                    <option class="navbar__lang-list menu-link" value="/en">Eng</option>
+                </select>
+            </ul>
         </div>
-        <div class="flex-column">
-            <p class="contacts-text">info@unicorn.com</p>
-            <p class="contacts-text contacts-text-padding">+38050 777 00 00</p>
-            <p class="contacts-text">+38050 777 00 00</p>
-            <p class="contacts-text contacts-text-padding">Kiev, Ukraine</p>
-            <p class="contacts-text">Minsk, Belarus</p>
+    </header>
+    <div class="icon-section">
+        <div class="icon-items icon-item1">
+            <div class="dumbbells-img" style="background-image: url(img/energym-mobile/dumbbells.png)"></div>
+            <p class="sport-text">fitness center group training hall</p>
+        </div>
+        <div class="icon-items icon-item1">
+            <div class="cardio-img" style="background-image: url(img/energym-mobile/cardio-theatre.png)"></div>
+            <p class="sport-text">cardio theatre</p>
+        </div>
+        <div class="icon-items icon-item2">
+            <div class="pool-img" style="background-image: url(img/energym-mobile/swimming-pool.png)"></div>
+            <p class="sport-text">professional sports pool 25х15 m with 6 swim lanes и 2 wading pools</p>
+        </div>
+        <div class="icon-items icon-item3">
+            <div class="child-img" style="background-image: url(img/energym-mobile/smiling-baby.png)"></div>
+            <p class="sport-text">children’s club EnerKid 500 q.m.</p>
+        </div>
+        <div class="icon-items icon-item2">
+            <div class="juice-img" style="background-image: url(img/energym-mobile/juice.png)"></div>
+            <p class="sport-text">fitness bar</p>
+        </div>
+        <div class="icon-items icon-item2">
+            <div class="boxing-img" style="background-image: url(img/energym-mobile/boxing-gloves.png)"></div>
+            <p class="sport-text">fight club</p>
+        </div>
+    </div>
+    <div class="border-footer">
+        <h6 class="main-text-contacts">Contacts</h6>
+        <div class="flex-wrapper">
+            <div class="flex-item">
+                <div class="footer-img" style="background-image:url(img/energym-mobile/email.png)"></div>
+                <div class="contacts-text footer-img-description"><p>email</p></div>
+                <div><p class="contacts-text">info@unicorn.com</p></div>
+            </div>
+            <div class="flex-item">
+                <div class="footer-img" style="background-image:url(img/energym-mobile/call.png)"></div>
+                <div class="contacts-text footer-img-description"><p>call</p></div>
+                <div><p class="contacts-text">+38050 777 00 00</p>
+                    <p class="contacts-text">+38050 777 00 00</p></div>
+            </div>
+            <div class="flex-item">
+                <div class="footer-img" style="background-image:url(img/energym-mobile/location.png)"></div>
+                <div class="contacts-text footer-img-description"><p>location</p></div>
+                <div><p class="contacts-text ">Kiev, Ukraine</p>
+                    <p class="contacts-text">Minsk, Belarus</p></div>
+            </div>
         </div>
     </div>
 </div>
