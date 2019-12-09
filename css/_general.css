@@ -23,6 +23,7 @@ a {
     font-size: 25px;
     color: #FFF;
     padding-left: 50px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 1024px) {
