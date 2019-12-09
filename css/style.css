@@ -1,9 +1,11 @@
 @import "_general.css";
 @import "_dan_it.css";
 
+
 @import "assets/_header.css";
 @import "assets/_title_image.css";
 @import "assets/_team.css";
 @import "assets/_icon-section.css";
 @import "assets/_footer.css";
 @import "assets/_map-section.css";
+@import "assets/_title_image_other_pages.css";
