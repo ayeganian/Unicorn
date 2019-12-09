@@ -5,21 +5,27 @@
 .map-wrapper {
     padding: 14px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 5px solid #F38A03;
 }
 .marketing-map-wrap {
     border: 5px solid;
     border-image-source: linear-gradient(45deg, #E34A7B, #4C4184);
     border-image-slice: 1;
+    margin-top: 53px;
+    margin-bottom: 54px;
 }
 .danit-map-wrap {
     border: 5px solid;
     border-image-source: linear-gradient(45deg, #5046C7, #1ECDAA);
     border-image-slice: 1;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-.map {
+.map{
     background-size: cover;
     width: 248px;
     height: 101px;
@@ -32,9 +38,29 @@
     width: 287px;
     height: 208px;
 }
+.map-description{
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+@media (min-width: 640px) {
+    .marketing-map{
+        width: 551px;
+        height: 281px;
+    }
+}
 @media (min-width: 1024px) {
     .map-wrapper {
         padding: 30px;
+    }
+    .marketing-map-wrap {
+        margin-top: 66px;
+        margin-bottom: 71px;
+    }
+    .danit-map-wrap {
+        margin-top: 96px;
+        margin-bottom: 130px;
     }
     .map {
         width: 525px;
