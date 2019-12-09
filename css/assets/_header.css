@@ -1,3 +1,7 @@
+.transparent {
+    opacity: 0.6;
+}
+
 .header-container {
     margin: 0 auto;
     padding: 0 20px;
@@ -13,9 +17,73 @@
     align-items: center;
 }
 
+/*side navbar styles*/
 .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #151616;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.opened-navbar {
+    width: 70%;
+}
+
+.btn-close {
+    color: #F38A03;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    right: 18px;
+}
+
+.dropdown {
     display: none;
 }
+
+.dropdown-item-link {
+    color: #F38A03;
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+
+.menu-items {
+    padding: 55px 0 0 40px;
+}
+
+.menu-item {
+    padding: 10px 0;
+}
+
+.menu-link {
+    color: #F38A03;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar__lang-list {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background-color: transparent;
+    border: none;
+    color: #F38A03;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+/*side navbar styles*/
+
 
 .logo {
     background-repeat: no-repeat;
@@ -29,6 +97,18 @@
     background-size: cover;
     width: 25px;
     height: 15px;
+}
+
+@media (min-width: 480px) {
+    .opened-navbar {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .opened-navbar {
+        width: 40%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -49,8 +129,13 @@
         display: none;
     }
 
+    .btn-close {
+        display: none;
+    }
+
     .navbar {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         width: 55%;
@@ -60,6 +145,11 @@
         display: flex;
         justify-content: space-between;
         width: 75%;
+        padding: 0;
+    }
+
+    .menu-items {
+        padding: 0;
     }
 
     .menu-link {
@@ -77,6 +167,11 @@
         color: white;
         font-weight: 500;
         font-size: 20px;
+        padding: 0;
+    }
+
+    .navbar {
+        overflow-x: unset;
     }
 
     .select-arrow {
