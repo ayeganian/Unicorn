@@ -269,6 +269,11 @@
     z-index: 1;
 }
 
+.swiper-pagination {
+    position: unset;
+    font-size: 22px;
+}
+
 .swiper-container-education {
     width: 100%;
     height: 100%;
@@ -324,12 +329,6 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-}
-
-
-
-.slide-counter-number {
-    font-size: 30px;
 }
 
 .slide-counter-wrap {
