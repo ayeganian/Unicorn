@@ -129,6 +129,10 @@
     color: #fff;
 }
 
+.business-option-button-link:hover {
+    color: #F38A01;
+}
+
 .slide-counter {
     display: none;
     position: absolute;
