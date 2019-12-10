@@ -9,7 +9,7 @@
 .flex-item {
     width: 260px;
     display: flex;
-
+    margin: 0 auto;
 }
 
 .footer-img {
