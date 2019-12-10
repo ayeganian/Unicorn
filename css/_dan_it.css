@@ -1,7 +1,8 @@
-.danit-first-section{
+.danit-first-section {
     padding-bottom: 92px;
 }
-.section-subtitle{
+
+.section-subtitle {
     padding-left: 50px;
     font-size: 16px;
     line-height: 20px;
@@ -22,7 +23,7 @@
 .programs-card {
     z-index: 1;
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 35px ;
     width: 311px;
     height: 130px;
     display: flex;
@@ -54,33 +55,26 @@
 .programs-card:last-of-type {
     position: absolute;
 }
+
 @media (min-width: 621px) {
     .programs-card:last-of-type {
         position: static;
     }
 }
+
 @media (min-width: 1024px) {
-    .section-subtitle{
+    .section-subtitle {
         padding-left: 10px;
         font-size: 25px;
         line-height: 30px;
         padding-bottom: 51px;
     }
+
     .programs-card {
-    width: 290px;
-    height: 396px;
+        width: 290px;
+        height: 396px;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
 
 
 /*!*FOOTER*!*/
