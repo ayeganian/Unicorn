@@ -49,6 +49,7 @@
     font-size: 14px;
     color: #FFFFFF;
     padding-top: 22px;
+
 }
 
 .icon-item1 {
@@ -63,50 +64,89 @@
     padding-top: 43px;
 }
 
-.gym-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;
-}
-.gym-image {
-    width: 280px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid #ED1260;;
-}
-
-.gym-padding {
-    padding-top: 15px;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .gym-items {
-        width: 400px;
-    }
-    .gym-item1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     .icon-section {
         margin: 0 auto;
         max-width: 915px;
         max-height: 325px;
     }
+}
 
-    .gym-items {
-        width: 390px;
+
+.icon-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.icon_img {
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+}
+
+.icon_info {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    max-width: 177px;
+}
+
+
+@media (min-width: 640px) {
+    .icon-item {
+        width: 41%;
     }
-
-    .gym-item1 {
-        display: flex;
-        flex-direction: row;
+}
+@media (min-width: 1024px) {
+    .icon-wrapper {
         justify-content: space-between;
     }
 
+    .icon-item {
+        width: 27%;
+    }
+    .icon_info {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 25px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

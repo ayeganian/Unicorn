@@ -74,6 +74,27 @@
     z-index: -1;
 }
 
+.business-chevron-center-left {
+    background-color: #F38A01;
+    position: absolute;
+    left: 3px;
+    top: 3%;
+    width: 100px;
+    height: 75%;
+    z-index: -1;
+}
+
+.business-chevron-center-right {
+    background-color: #F38A01;
+    position: absolute;
+    right: 1px;
+    top: 3%;
+    width: 100px;
+    height: 75%;
+    z-index: -1;
+}
+
+
 .business-details {
     padding-left: 20px;
     width: 100%;
@@ -86,6 +107,7 @@
     margin: 10px 0;
     width: 35%;
 }
+
 .business-details-item-title {
     font-weight: 600;
     font-size: 20px;
@@ -113,10 +135,13 @@
     line-height: 22px;
 }
 
+.business-option-description.r-e {
+    padding-left: 20px;
+}
+
 .business-option-button {
     display: block;
     margin: 20px auto 0;
-
     border: none;
     text-align: center;
     background-color: #000;
@@ -154,11 +179,12 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .business-details-item-title {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .business-details-item-description {
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 17px;
     }
 
     .business-option-wrapper {
@@ -185,7 +211,16 @@
     .business-chevron {
         display: none
     }
+
     .business-chevron-right {
+        display: none
+    }
+
+    .business-chevron-center-left {
+        display: none
+    }
+
+    .business-chevron-center-right {
         display: none
     }
 
@@ -195,7 +230,7 @@
 
     .business-chevron-right {
         left: unset;
-        right: -115px;
+        right: -113px;
         top: 30%;
         width: 130px;
         height: 30%;
@@ -238,11 +273,18 @@
         width: 35%;
         z-index: 1;
     }
+
+    .business-option-wrapper.r-e {
+        top: 9.5%;
+        max-height: 39%;
+    }
+
     .business-option-button {
         position: absolute;
         right: -700px;
         top: 80px;
     }
+
     .business-option-button-link {
         font-size: 22px;
         padding: 20px 40px;
@@ -250,6 +292,7 @@
 
     .slide-counter {
         display: block;
+        z-index: 5;
     }
 }
 
@@ -261,24 +304,23 @@
     cursor: pointer;
 }
 
-.swiper-container-business {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-}
-
 .swiper-pagination {
     position: unset;
     font-size: 22px;
 }
 
-.swiper-container-education {
+.swiper-container-education,
+.swiper-container-sport,
+.swiper-container-marketing,
+.swiper-container-business,
+.swiper-container-office1,
+.swiper-container-Bel1,
+.swiper-container-Bel3,
+.swiper-container-Bel4,
+.swiper-container-BelInterior1,
+.swiper-container-Bel2,
+.swiper-container-BelInterior3,
+.swiper-container-BelInterior2 {
     width: 100%;
     height: 100%;
     margin-left: auto;
@@ -289,31 +331,6 @@
     padding: 0;
     z-index: 1;
 }
-
-.swiper-container-sport {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-}
-
-.swiper-container-marketing {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-}
-
 
 .swiper-slide-business {
     padding: 15px;
