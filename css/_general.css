@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-text {
     color: #FFF;
     font-size: 14px;
@@ -19,6 +23,7 @@ body {
     font-size: 25px;
     color: #FFF;
     padding-left: 50px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 1024px) {
