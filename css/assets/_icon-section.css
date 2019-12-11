@@ -49,7 +49,6 @@
     font-size: 14px;
     color: #FFFFFF;
     padding-top: 22px;
-
 }
 
 .icon-item1 {
@@ -64,10 +63,50 @@
     padding-top: 43px;
 }
 
-@media (min-width: 1024px) {
+.gym-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.gym-image {
+    width: 280px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #ED1260;;
+}
+
+.gym-padding {
+    padding-top: 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .gym-items {
+        width: 400px;
+    }
+    .gym-item1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .icon-section {
         margin: 0 auto;
         max-width: 915px;
         max-height: 325px;
     }
+
+    .gym-items {
+        width: 390px;
+    }
+
+    .gym-item1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
