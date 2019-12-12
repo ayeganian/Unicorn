@@ -5,6 +5,7 @@
 
 .map-wrapper {
     padding: 14px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;

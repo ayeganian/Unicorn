@@ -13,7 +13,33 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="basic-container">
+<div class="basic-container page-wrapper">
+  <header class="header basic-container header-container header-clear-padding">
+    <a href="#" class="logo-link">
+      <div class="logo" style="background-image: url(img/logo.png);"></div>
+    </a>
+    <div class="icon-container" style="background-image: url(img/menu.png);"></div>
+    <div class="navbar select-arrow">
+      <a href="#" class="btn-close">&times;</a>
+      <ul class="menu-items">
+        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+        <li class="menu-item menu-item-dropdown"><a href="#" class="menu-link">Business</a>
+          <ul class="dropdown">
+            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Muitibrand development</a></li>
+            <li class="dropdown-item"><a href="#" class="dropdown-item-link">IT-education</a></li>
+            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Sport</a></li>
+            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Marketing</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+      </ul>
+      <select id="lang_choice_1" class="navbar__lang-list">
+        <option value="ru" class="navbar__lang-item">Ru</option>
+        <option value="eng" class="navbar__lang-item">Eng</option>
+      </select>
+    </div>
+  </header>
+  <!---------------HEADER END------------------->
   <section class="marketing-first-section">
     <div class="main-image-wrapper main-image-wrapper-energym">
       <div class="main-image main-image-black centered"
@@ -25,43 +51,31 @@
     </div>
     <p class="section-text">6 000 м2 комфортного фитнеса с прекрасным видом на правый берег Киева, на Лавру и Днепр.</p>
   </section>
-
-
   <!--------------- IMAGES SECTION --------------->
   <section>
-  <div class="section-gym basic-container">
-    <div class="gym-item1">
-      <div class="gym-items">
+
+    <div class="gym-wrapper">
+      <div class="gym-item">
         <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">кардио театр</p>
-      </div>
-      <div class="gym-items">
+        <p class="gym-text">кардио театр</p></div>
+      <div class="gym-item">
         <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">тренажерный зал</p>
-      </div>
+        <p class="gym-text">тренажерный зал</p></div>
+      <div class="gym-item">
+        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
+        <p class="gym-text">зал для групповых тренировок</p></div>
+      <div class="gym-item">
+        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
+        <p class="gym-text">профессиональный спортивный бассейн 25х15 м на 6
+          плавательных дорожек и 2 детских бассейна </p></div>
+      <div class="gym-item">
+        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
+        <p class="gym-text">бойцовский клуб</p></div>
+      <div class="gym-item">
+        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
+        <p class="gym-text">детский клуб EnerKid 500 кв.м </p></div>
     </div>
-    <div class="gym-item1">
-      <div class="gym-items">
-        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">зал для групповых тренировок</p>
-      </div>
-      <div class="gym-items">
-        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">профессиональный спортивный бассейн 25х15 м на 6
-          плавательных дорожек и 2 детских бассейна </p>
-      </div>
-    </div>
-    <div class="gym-item1">
-      <div class="gym-items">
-        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">бойцовский клуб</p>
-      </div>
-      <div class="gym-items">
-        <div class="gym-image" style="background-image: url(img/energym-mobile/energym11.png)"></div>
-        <p class="contacts-text gym-padding">детский клуб EnerKid 500 кв.м </p>
-      </div>
-    </div>
-  </div>
+
   </section>
   <!-------------- ICON SECTION ----------------->
   <section>
@@ -107,9 +121,8 @@
     </div>
   </section>
   <!------------------- FOOTER ---------------------->
-  <footer>
-  <div class="border-footer">
-    <h1 class="section-title">Contacts</h1>
+  <footer class="footer basic-container">
+    <h1 class="section-title contact-title">Contacts</h1>
     <div class="flex-wrapper">
       <div class="flex-item">
         <div class="footer-img" style="background-image:url(img/energym-mobile/email.png)"></div>
@@ -129,8 +142,8 @@
           <p class="contacts-text">Minsk, Belarus</p></div>
       </div>
     </div>
-  </div>
   </footer>
 </div>
+<script src="js/index.js"></script>
 </body>
 </html>
