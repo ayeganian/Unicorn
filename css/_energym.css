@@ -1,11 +1,26 @@
+.gym-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-.gym-items {
+.gym-item {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding-top: 20px;
 }
+
+.gym-text {
+    max-width: 280px;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+}
+
 .gym-image {
     width: 280px;
     height: 190px;
@@ -14,35 +29,14 @@
     border: 3px solid #ED1260;;
 }
 
-.gym-padding {
-    padding-top: 15px;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .gym-items {
-        width: 400px;
-    }
-    .gym-item1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
 @media screen and (min-width: 1024px) {
-    .icon-section {
-        margin: 0 auto;
-        max-width: 915px;
-        max-height: 325px;
+    .gym-text {
+        font-size: 18px;
+        line-height: 22px;
     }
 
-    .gym-items {
-        width: 390px;
-    }
-
-    .gym-item1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .gym-item {
+        width: 50%;
     }
 
 }
