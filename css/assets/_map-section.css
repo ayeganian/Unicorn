@@ -4,8 +4,13 @@
 }
 
 .map-wrapper {
-    padding: 14px;
+    padding: 15px;
+    padding-bottom: 11px;
     margin-bottom: 60px;
+    width: 90%;
+    height: 40vh;
+    min-width: 248px;
+    min-height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,8 +41,9 @@
 
 .map {
     background-size: cover;
-    width: 248px;
-    height: 101px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .marketing-map {
@@ -51,7 +57,7 @@
 }
 
 .map-description {
-    color: white;
+    color: #fff;
     font-size: 12px;
     line-height: 15px;
     margin-bottom: 0;
@@ -67,7 +73,10 @@
 
 @media (min-width: 1024px) {
     .map-wrapper {
-        padding: 30px;
+        padding: 27px;
+        padding-bottom: 11px;
+        min-width: 579px;
+        min-height: 296px;
     }
 
     .map-wrapper.energym-map-wrap {
@@ -84,10 +93,6 @@
         margin-bottom: 130px;
     }
 
-    .map {
-        width: 525px;
-        height: 212px;
-    }
 
     .marketing-map {
         width: 551px;
@@ -100,5 +105,7 @@
     }
     .map-description {
         padding-top: 12px;
+        font-size: 22px;
+        line-height: 27px;
     }
 }

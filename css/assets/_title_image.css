@@ -9,7 +9,6 @@
 .main-image {
     width: 100%;
     height: 490px;
-    background-position-x: 72%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -31,7 +30,7 @@
     top: 58px;
     width: 250px;
     padding: 15px 0 15px 20px;
-    color: #FFF;
+    color: #fff;
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
@@ -69,16 +68,16 @@
 
 /*title image other pages*/
 
-.main-image-wrapper-marketing.main-image-wrapper::after {
+.main-image-wrapper.violet::after {
     background-color: #4C4184;
 }
 
-.main-image-wrapper-danit.main-image-wrapper::after {
+.main-image-wrapper.blue::after {
     background-color: #1ECDAA;
 }
 
-.main-image-wrapper-energym.main-image-wrapper::after {
-    background-color: #ED1260;;
+.main-image-wrapper.pink::after {
+    background-color: #ED1260;
 }
 
 .main-image-wrapper {
@@ -93,15 +92,16 @@
     align-items: center;
 }
 .main-title {
-    position: relative;
-    width: 257px;
-    height: 110px;
-    padding: 27px 47px;
-    color: #FFF;
-    font-size: 25px;
-    line-height: 30px;
+    color: #fff;
     text-align: center;
+}
+
+.main-title p {
     background-color: black;
+    min-width: 257px;
+    padding: 41px 31px;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 .estate-main-title.main-title {
@@ -111,20 +111,15 @@
 }
 
 .main-link {
-    position: absolute;
-    bottom: -54%;
-    left: 25%;
-    margin-top: 18px;
+    display: inline-block;
+    margin-top: 10px;
     width: 131px;
     height: 36px;
     padding: 7px 32px;
     font-size: 16px;
     line-height: 20px;
-    color: #FFF;
+    color: #fff;
     background-color: black;
-}
-
-.main-link:hover {
     text-decoration: underline;
 }
 
@@ -138,10 +133,10 @@
         padding-left: 50px;
     }
 
-    .main-title {
-        width: 327px;
-        height: 141px;
-        padding: 34px 60px;
+    .main-title p {
+        min-width: 327px;
+        min-height: 141px;
+        padding: 52px 92px;
         font-size: 32px;
         line-height: 39px;
     }
