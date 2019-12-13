@@ -4,7 +4,9 @@ const dropdown = document.querySelector('.dropdown');
 
 
 menuItemDropdown.addEventListener('click', () => {
-    dropdown.classList.contains('dropdown-active') ? dropdown.classList.remove('dropdown-active') : dropdown.classList.add('dropdown-active');
+    dropdown.classList.contains('dropdown-active')
+        ? dropdown.classList.remove('dropdown-active')
+        : dropdown.classList.add('dropdown-active');
 });
 
 

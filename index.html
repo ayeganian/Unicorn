@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unicorn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!---------------FONTS----------------->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap&subset=cyrillic-ext"
           rel="stylesheet">
     <!---------------SLIDER ARROWS----------------->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!---------------SWIPER----------------->
-    <link rel="stylesheet" href="package/css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <!---------------STYLES----------------->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -27,23 +27,24 @@
         </a>
         <div class="icon-container" style="background-image: url(img/menu.png);"></div>
         <div class="navbar select-arrow">
-            <a href="#" class="btn-close">&times;</a>
+            <span class="btn-close">&times;</span>
             <ul class="menu-items">
-                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                <li class="menu-item menu-item-dropdown"><a href="#" class="menu-link">Business</a>
+                <li class="menu-item"><a href="#" class="menu-link">Компания</a></li>
+                <li class="menu-item menu-item-dropdown"><a href="#" class="menu-link">Бизнесы</a>
                     <ul class="dropdown">
-                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Muitibrand development</a></li>
-                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">IT-education</a></li>
-                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Sport</a></li>
-                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Marketing</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Мультиформатный девелопмент</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">IT-образование</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Спорт</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-item-link">Маркетинг</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Офисы</a></li>
             </ul>
             <select id="lang_choice_1" class="navbar__lang-list">
                 <option value="ru" class="navbar__lang-item">Ru</option>
                 <option value="eng" class="navbar__lang-item">Eng</option>
             </select>
+            <div class="arrow-down" style="background-image: url(img/arrow_down.png);"></div>
         </div>
     </header>
     <!---------------HEADER END------------------->
@@ -53,14 +54,11 @@
                 <span class="main-subtitle">Unicorn Development Limited</span>
             </div>
         </div>
-        <p class="section-text">The international holding company with huge experience in implementing projects in
-            various fields</p>
+        <p class="section-text">Unicorn Development Limited  - международный инвестиционный холдинг с богатым опытом работы на рынках центральной и восточной Европы. Инновационный подход и практичные решения позволяют успешно инвестировать и развивать различные направления бизнеса.</p>
     </section>
     <!---------------MAIN CONTENT START----------------->
-
     <div class="business-main-container">
         <h1 class="section-title">БИЗНЕСЫ</h1>
-
 
         <div class="business-container">
             <p class="business-title">мультидефолтный девелопмент</p>
@@ -71,25 +69,20 @@
                              style="background-image: url('./img/business/business_1.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_1.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_1.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                 </div>
-
-
             </div>
             <div class="slide-counter">
                 <div class="slide-counter-wrap">
@@ -102,9 +95,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="business-chevron-descktop"></div>
+            <div class="business-chevron-desctop"></div>
             <div class="business-details">
                 <div class="business-details-item">
                     <p class="business-details-item-title">
@@ -114,7 +105,6 @@
                         успешного международного опыта
                     </p>
                 </div>
-
                 <div class="business-details-item">
                     <p class="business-details-item-title">
                         150+ млн
@@ -123,7 +113,6 @@
                         евро инвестиций
                     </p>
                 </div>
-
                 <div class="business-details-item">
                     <p class="business-details-item-title">
                         160 тыс. м2
@@ -133,14 +122,12 @@
                     </p>
                 </div>
             </div>
-
             <div class="business-option-wrapper">
                 <p class="business-option-description">
                     Компания специализируется на строительстве жилой и коммерческой недвижимости.
                     Мы ведем весь цикл работ от приобретения земельного участка и разработки концепции до полной
                     реализации
                     проекта.
-
                 </p>
                 <button class="business-option-button">
                     <a href="#/" class="business-option-button-link">
@@ -148,10 +135,7 @@
                     </a>
                 </button>
             </div>
-
         </div>
-
-
         <div class="business-container">
             <p class="business-title">IT-образование</p>
             <div class="swiper-container-education">
@@ -161,25 +145,21 @@
                              style="background-image: url('./img/business/business_2.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_2.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_2.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                 </div>
             </div>
-
             <div class="slide-counter">
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-ed swiper-main-button"><i class="fas fa-long-arrow-alt-left"></i>
@@ -191,8 +171,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="business-chevron-descktop"></div>
+            <div class="business-chevron-desctop"></div>
             <div class="business-details">
                 <div class="business-details-item">
                     <p class="business-details-item-title">
@@ -202,7 +181,6 @@
                         на рынке Украины
                     </p>
                 </div>
-
                 <div class="business-details-item">
                     <p class="business-details-item-title">
                         1-й год
@@ -211,7 +189,6 @@
                         на рынке Азербайджана и Беларуси
                     </p>
                 </div>
-
                 <div class="business-details-item">
                     <p class="business-details-item-title">
                         6
@@ -229,7 +206,6 @@
                     </p>
                 </div>
             </div>
-
             <div class="business-option-wrapper">
                 <p class="business-option-description">
                     Учебные центры по подготовке IT-специалистов (ссылка на переход в раздел IT-образование) по
@@ -243,7 +219,6 @@
                 </button>
             </div>
         </div>
-
         <div class="business-container">
             <p class="business-title">спорт</p>
             <div class="swiper-container-sport">
@@ -253,21 +228,18 @@
                              style="background-image: url('./img/business/business_3.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_3.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_3.png')">
                         </div>
                         <div class="business-chevron"></div>
-
                     </div>
                 </div>
             </div>
@@ -316,7 +288,6 @@
                 </button>
             </div>
         </div>
-
         <div class="business-container">
             <p class="business-title">маркетинг</p>
             <div class="swiper-container-marketing">
@@ -326,25 +297,21 @@
                              style="background-image: url('./img/business/business_4.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_4.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                     <div class="swiper-slide swiper-slide-business">
                         <div class="business-image-wrapper"
                              style="background-image: url('./img/business/business_4.png')">
                         </div>
                         <div class="business-chevron-right"></div>
-
                     </div>
                 </div>
             </div>
-
             <div class="slide-counter">
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-mark swiper-main-button"><i class="fas fa-long-arrow-alt-left"></i>
@@ -356,7 +323,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="business-chevron-descktop"></div>
             <div class="business-details">
                 <div class="business-details-item">
@@ -367,7 +333,6 @@
                         специалистов из разных сфер
                     </p>
                 </div>
-
                 <div class="business-details-item">
                     <p class="business-details-item-title">
                         Клиенты из
@@ -377,7 +342,6 @@
                     </p>
                 </div>
             </div>
-
             <div class="business-option-wrapper">
                 <p class="business-option-description">
                     Учебные центры по подготовке IT-специалистов (ссылка на переход в раздел IT-образование) по
@@ -393,147 +357,95 @@
         </div>
     </div>
     <!---------------MAIN CONTENT END----------------->
-
     <!---------------TEAM SECTION START----------------->
-
     <section class="team basic-container">
         <div class="team-section-wrapper">
-            <h1 class="section-title">TEAM</h1>
-            <p class="section-text text-margin">The expert team inspired by the latest global trends</p>
+            <h1 class="section-title">Команда</h1>
+            <p class="section-text text-margin">Команда экспертов, вдохновленных последними мировыми тенденциями</p>
 
             <!---------------DESCTOP TEAM VIEW START----------------->
             <div class="team-container">
                 <div class="person-wrapper">
-                    <div class="person-picture" style="background-image: url(img/team/photo_yossef.png)"></div>
-                    <div class="person-details">
-                        <p class="person-dept person-item">REAL ESTATE</p>
-                        <p class="person-name person-item">Yossef Fridman</p>
-                        <p class="person-position person-item">CEO</p>
-                    </div>
-                </div>
-
-                <div class="person-wrapper">
                     <div class="person-picture" style="background-image: url(img/team/photo_sergey.png)"></div>
                     <div class="person-details">
-                        <p class="person-dept person-item">REAL ESTATE</p>
-                        <p class="person-name person-item">Sergey Leikousky</p>
-                        <p class="person-position person-item">Director</p>
+                        <p class="person-dept person-item">ДЕВЕЛОПМЕНТ</p>
+                        <p class="person-name person-item">Сергей Лейковский</p>
+                        <p class="person-position person-item">Директор</p>
                     </div>
                 </div>
-
-                <div class="person-wrapper">
-                    <div class="person-picture" style="background-image: url(img/team/photo_yuriy.png)"></div>
-                    <div class="person-details">
-                        <p class="person-dept person-item">REAL ESTATE</p>
-                        <p class="person-name person-item">Jury Sreda</p>
-                        <p class="person-position person-item">CTO</p>
-                    </div>
-                </div>
-
                 <div class="person-wrapper">
                     <div class="person-picture" style="background-image: url(img/team/photo_ksenia.png)"></div>
                     <div class="person-details">
-                        <p class="person-dept person-item">IT-EDUCATION</p>
-                        <p class="person-name person-item">Ksenia Stolbovaya</p>
+                        <p class="person-dept person-item">IT-ОБРАЗОВАНИЕ</p>
+                        <p class="person-name person-item">Ксения Столбова</p>
                         <p class="person-position person-item">CEO</p>
                     </div>
                 </div>
-
-                <div class="person-wrapper">
-                    <div class="person-picture" style="background-image: url(img/team/photo_olga.png)"></div>
-                    <div class="person-details">
-                        <p class="person-dept person-item">MARKETING</p>
-                        <p class="person-name person-item">Olga Panteleeva</p>
-                        <p class="person-position person-item">CEO</p>
-                    </div>
-                </div>
-
                 <div class="person-wrapper">
                     <div class="person-picture" style="background-image: url(img/team/photo_alexey.png)"></div>
                     <div class="person-details">
-                        <p class="person-dept person-item">SPORT</p>
-                        <p class="person-name person-item">Alexey Volkov</p>
+                        <p class="person-dept person-item">СПОРТ</p>
+                        <p class="person-name person-item">Алексей Волков</p>
                         <p class="person-position person-item">CTO</p>
+                    </div>
+                </div>
+                <div class="person-wrapper">
+                    <div class="person-picture" style="background-image: url(img/team/photo_olga.png)"></div>
+                    <div class="person-details">
+                        <p class="person-dept person-item">МАРКЕТИНГ</p>
+                        <p class="person-name person-item">Ольга Пантелеева</p>
+                        <p class="person-position person-item">CEO</p>
                     </div>
                 </div>
             </div>
             <!---------------DESCTOP TEAM VIEW END----------------->
-
             <!---------------SWIPER START----------------->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-
-                    <div class="swiper-slide person-wrapper">
-                        <div class="person-picture" style="background-image: url(img/team/photo_yossef.png)"></div>
-                        <div class="person-details">
-                            <p class="person-dept person-item">REAL ESTATE</p>
-                            <p class="person-name person-item">Yossef Fridman</p>
-                            <p class="person-position person-item">CEO</p>
-                        </div>
-                    </div>
-
                     <div class="swiper-slide person-wrapper">
                         <div class="person-picture" style="background-image: url(img/team/photo_sergey.png)"></div>
                         <div class="person-details">
-                            <p class="person-dept person-item">REAL ESTATE</p>
-                            <p class="person-name person-item">Sergey Leikousky</p>
-                            <p class="person-position person-item">Director</p>
+                            <p class="person-dept person-item">ДЕВЕЛОПМЕНТ</p>
+                            <p class="person-name person-item">Сергей Лейковский</p>
+                            <p class="person-position person-item">Директор</p>
                         </div>
                     </div>
-
-                    <div class="swiper-slide person-wrapper">
-                        <div class="person-picture" style="background-image: url(img/team/photo_yuriy.png)"></div>
-                        <div class="person-details">
-                            <p class="person-dept person-item">REAL ESTATE</p>
-                            <p class="person-name person-item">Jury Sreda</p>
-                            <p class="person-position person-item">CTO</p>
-                        </div>
-                    </div>
-
                     <div class="swiper-slide person-wrapper">
                         <div class="person-picture" style="background-image: url(img/team/photo_ksenia.png)"></div>
                         <div class="person-details">
-                            <p class="person-dept person-item">IT-EDUCATION</p>
-                            <p class="person-name person-item">Ksenia Stolbovaya</p>
+                            <p class="person-dept person-item">IT-ОБРАЗОВАНИЕ</p>
+                            <p class="person-name person-item">Ксения Столбова</p>
                             <p class="person-position person-item">CEO</p>
                         </div>
                     </div>
-
-                    <div class="swiper-slide person-wrapper">
-                        <div class="person-picture" style="background-image: url(img/team/photo_olga.png)"></div>
-                        <div class="person-details">
-                            <p class="person-dept person-item">MARKETING</p>
-                            <p class="person-name person-item">Olga Panteleeva</p>
-                            <p class="person-position person-item">CEO</p>
-                        </div>
-                    </div>
-
                     <div class="swiper-slide person-wrapper">
                         <div class="person-picture" style="background-image: url(img/team/photo_alexey.png)"></div>
                         <div class="person-details">
-                            <p class="person-dept person-item">SPORT</p>
-                            <p class="person-name person-item">Alexey Volkov</p>
+                            <p class="person-dept person-item">СПОРТ</p>
+                            <p class="person-name person-item">Алексей Волков</p>
                             <p class="person-position person-item">CTO</p>
                         </div>
                     </div>
-
+                    <div class="swiper-slide person-wrapper">
+                        <div class="person-picture" style="background-image: url(img/team/photo_olga.png)"></div>
+                        <div class="person-details">
+                            <p class="person-dept person-item">МАРКЕТИНГ</p>
+                            <p class="person-name person-item">Ольга Пантелеева</p>
+                            <p class="person-position person-item">CEO</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-
-                <!-- Customized arrows ------>
-                <div class="arrow arrow-left" style="background-image: url(img/team/Arrow_left.png)"></div>
-                <div class="arrow arrow-right" style="background-image: url(img/team/Arrow_right.png)"></div>
-
+                <div class="swiper-button-next arrow arrow-right" style="background-image: url(img/team/Arrow_right.png)"></div>
+                <div class="swiper-button-prev arrow arrow-left" style="background-image: url(img/team/Arrow_left.png)"></div>
             </div>
             <!---------------SWIPER END----------------->
         </div>
     </section>
     <!---------------FOOTER START------------------->
     <footer class="footer basic-container">
-        <h1 class="section-title contact-title">Contacts</h1>
+        <h1 class="section-title contact-title">КОНТАКТЫ</h1>
         <div class="flex-wrapper">
             <div class="flex-item">
                 <div class="footer-img" style="background-image:url(img/energym-mobile/email.png)"></div>
@@ -542,21 +454,21 @@
             </div>
             <div class="flex-item">
                 <div class="footer-img" style="background-image:url(img/energym-mobile/call.png)"></div>
-                <div class="contacts-text footer-img-description"><p>call</p></div>
-                <div><p class="contacts-text">+38050 777 00 00</p>
+                <div class="contacts-text footer-img-description"><p>позвонить</p></div>
+                <div><p class="contacts-text text-interval">+38050 777 00 00</p>
                     <p class="contacts-text">+38050 777 00 00</p></div>
             </div>
             <div class="flex-item">
                 <div class="footer-img" style="background-image:url(img/energym-mobile/location.png)"></div>
-                <div class="contacts-text footer-img-description"><p>location</p></div>
-                <div><p class="contacts-text ">Kiev, Ukraine</p>
-                    <p class="contacts-text">Minsk, Belarus</p></div>
+                <div class="contacts-text footer-img-description"><p>адреса</p></div>
+                <div><p class="contacts-text">Киев, Украина</p>
+                    <p class="contacts-text">Минск, Беларусь</p></div>
             </div>
         </div>
     </footer>
 </div>
 <!---------------FOOTER END------------------->
-<script src="package/js/swiper.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/title-page.js"></script>
 </body>

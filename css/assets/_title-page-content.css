@@ -5,7 +5,7 @@
     margin: 60px auto;
 }
 
-.business-chevron-descktop {
+.business-chevron-desctop {
     position: absolute;
     right: -115px;
     top: 188px;
@@ -129,7 +129,7 @@
 }
 
 .business-option-description {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 10px;
     font-size: 14px;
     line-height: 22px;
@@ -224,7 +224,7 @@
         display: none
     }
 
-    .business-chevron-descktop {
+    .business-chevron-desctop {
         display: block;
     }
 
@@ -250,7 +250,7 @@
     }
 
     .business-details-item {
-        width: 20%;
+        width: 24%;
     }
 
     .business-title {

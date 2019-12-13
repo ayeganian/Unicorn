@@ -12,11 +12,11 @@
 .flex-wrapper {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .flex-item {
     display: flex;
+    padding-bottom: 15px;
 }
 
 .footer-img {
@@ -28,6 +28,10 @@
 .contacts-text {
     color: #FFFFFF;
     padding-bottom: 0;
+}
+
+.text-interval {
+    padding-bottom: 5px;
 }
 
 .footer-img-description {
@@ -46,6 +50,7 @@
         justify-content: space-around;
         align-items: center;
         padding: 70px 0;
+        margin-top: 0;
     }
 
     .flex-item {
@@ -60,10 +65,11 @@
 
     .footer-img-description {
         display: block;
+        margin-bottom: 20px;
     }
 
     .footer-img {
-        width: 25px;
+        width: 35px;
     }
 
     .contact-title {
