@@ -39,7 +39,7 @@
 
 .btn-close {
     color: #F38A03;
-    font-size: 20px;
+    font-size: 38px;
     position: absolute;
     top: 15px;
     right: 18px;
@@ -178,17 +178,12 @@
         position: relative;
     }
 
-    .select-arrow:after {
+    .arrow-down {
         position: absolute;
-        content: "\003e";
-        font-size: 14px;
-        display: block;
-        width: 0;
-        height: 0;
-        color: #fff;
-        transform: rotate(90deg);
-        top: 40%;
-        right: -11px;
+        top: 19px;
+        right: -9px;
+        height: 5px;
+        width: 8px;
     }
 
     .dropdown {

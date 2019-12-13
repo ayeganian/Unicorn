@@ -50,7 +50,7 @@
 
 .arrow {
     position: absolute;
-    top: 35%;
+    top: 38%;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,11 +59,11 @@
 }
 
 .arrow-left {
-    left: 5%;
+    left: 8%;
 }
 
 .arrow-right {
-    right: 5%;
+    right: 8%;
 }
 
 @media (min-width: 480px) {
@@ -117,14 +117,12 @@
     .team-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         width: 100%;
-        margin-top: 50px;
     }
 
     .person-wrapper {
-        width: 30%;
-        margin-bottom: 90px;
+        width: 35%;
+        margin: 60px;
     }
 
     .person-picture {
