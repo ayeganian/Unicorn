@@ -153,7 +153,7 @@
     }
 
     .menu-link {
-        color: white;
+        color: #fff;
         font-weight: 500;
         font-size: 20px;
     }
@@ -164,7 +164,7 @@
         appearance: none;       /* Remove default arrow */
         background-color: transparent;
         border: none;
-        color: white;
+        color: #fff;
         font-weight: 500;
         font-size: 20px;
         padding: 0;
@@ -180,10 +180,22 @@
 
     .arrow-down {
         position: absolute;
+<<<<<<< HEAD
         top: 19px;
         right: -9px;
         height: 5px;
         width: 8px;
+=======
+        content: "\003e";
+        font-size: 14px;
+        display: block;
+        width: 0;
+        height: 0;
+        color: #fff;
+        transform: rotate(90deg);
+        top: 40%;
+        right: -11px;
+>>>>>>> master
     }
 
     .dropdown {

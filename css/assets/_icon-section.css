@@ -23,17 +23,17 @@
     text-align: center;
 }
 
-.icon_img {
+.icon-img {
     background-size: cover;
     width: 55px;
     height: 55px;
 }
 
-.icon_info {
+.icon-info {
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #fff;
     padding-top: 20px;
     max-width: 177px;
 }
@@ -46,13 +46,13 @@
 }
 @media (min-width: 1024px) {
     .icon-wrapper {
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .icon-item {
         width: 27%;
     }
-    .icon_info {
+    .icon-info {
         font-size: 18px;
         line-height: 22px;
         padding-top: 25px;
