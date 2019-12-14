@@ -19,7 +19,6 @@ const pageBackground = document.querySelector('.page-wrapper');
 barIcon.addEventListener('click', () => {
     document.querySelector('.navbar').classList.add('opened-navbar');
     pageBackground.classList.add('transparent');
-    dropdown.style.display = "none";
 });
 
 closeIcon.addEventListener('click', () => {
@@ -27,10 +26,6 @@ closeIcon.addEventListener('click', () => {
     pageBackground.classList.remove('transparent')
 });
 
-menuItemDropdown.addEventListener('click', () => {
-    if (dropdown.style.display === "block") {
-        dropdown.style.display = "none";
-    } else {
-        dropdown.style.display = "block";
-    }
-});
+//select
+
+// customSelect('select');
