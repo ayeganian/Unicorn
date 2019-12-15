@@ -28,6 +28,8 @@
 .contacts-text {
     color: #fff;
     padding-bottom: 0;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .text-interval {
@@ -41,6 +43,7 @@
 @media (min-width: 1024px) {
     .footer {
         border: none;
+        padding: 34px 0 38px;
     }
 
     .flex-wrapper {
@@ -75,6 +78,7 @@
     .contact-title {
         padding: 0;
         align-self: flex-start;
+        margin-left: 100px;
     }
 
     .contacts-text {
