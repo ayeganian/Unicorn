@@ -1,8 +1,8 @@
-.marketing-first-section{
+.title-image-section{
     padding-bottom: 40px;
 }
 @media (min-width: 1024px) {
-    .marketing-first-section{
+    .title-image-section{
         padding-bottom: 57px;
     }
 }

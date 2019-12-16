@@ -42,7 +42,8 @@
 }
 
 .programs-info-header {
-    margin-left: 36px;
+    padding-left: 12%;
+    padding-right: 10%;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
@@ -50,7 +51,8 @@
 }
 
 .programs-info-description {
-    margin-left: 36px;
+    padding-left: 12%;
+    padding-right: 10%;
     font-size: 14px;
     margin-bottom: 28px;
 }
@@ -89,5 +91,9 @@
 
     .programs-card:nth-of-type(3n) {
         margin-right: 0;
+    }
+
+    .programs-info-description {
+        padding: 10% 12%;
     }
 }

@@ -39,7 +39,7 @@
 .country-text {
     font-size: 18px;
     color: #fff;
-    padding: 27px 42px 17px;
+    padding: 27px 50px 17px;
 }
 
 .social-text {
@@ -92,12 +92,6 @@
     .flex-container-adress {
         display: flex;
         flex-direction: column;
-    }
-
-    .section-text {
-        font-size: 22px;
-        line-height: 27px;
-        padding: 0 50px 0 10px;
     }
 
     .section-title {

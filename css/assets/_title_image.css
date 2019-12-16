@@ -88,12 +88,15 @@
     display: flex;
     padding: 30px 20px;
 }
+
 .main-image-black.centered {
     align-items: center;
 }
+
 .main-title {
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .main-title p {
@@ -102,6 +105,10 @@
     padding: 41px 31px;
     font-size: 25px;
     line-height: 28px;
+}
+
+.main-title.main-title-smaller p {
+    font-size: 22px;
 }
 
 .estate-main-title.main-title {
@@ -125,7 +132,7 @@
 
 @media (min-width: 1024px) {
     .main-image-wrapper {
-        margin-bottom: 33px;
+        margin-bottom: 20px;
     }
 
     .main-image-black {
@@ -139,6 +146,11 @@
         padding: 52px 92px;
         font-size: 32px;
         line-height: 39px;
+    }
+
+    .main-title.main-title-smaller p {
+        font-size: 28px;
+        padding: 50px 26px;
     }
 
     .estate-main-title.main-title {
