@@ -30,6 +30,7 @@ body {
 
 .contacts-container {
     padding-top: 3px;
+    padding-bottom: 90px;
 }
 
 @media (min-width: 1024px) {
