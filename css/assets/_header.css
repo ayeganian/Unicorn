@@ -89,6 +89,14 @@
 .dropdown-active {
     display: block;
 }
+
+.navbar__lang-list option {
+    color: #000;
+}
+
+.dropdown-active {
+    display: block;
+}
 /*side navbar styles*/
 
 
