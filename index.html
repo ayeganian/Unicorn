@@ -10,8 +10,6 @@
     <!---------------FONTS----------------->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap&subset=cyrillic-ext"
           rel="stylesheet">
-    <!---------------SLIDER ARROWS----------------->
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!---------------SWIPER----------------->
     <link rel="stylesheet" href="css/swiper.min.css">
     <!---------------STYLES----------------->
@@ -26,7 +24,8 @@
             <div class="logo" style="background-image: url(img/logo.png);"></div>
         </a>
         <div class="icon-container" style="background-image: url(img/menu.png);"></div>
-        <div class="navbar select-arrow">
+        <div class="background-title-page"></div>
+        <div class="navbar">
             <span class="btn-close">&times;</span>
             <ul class="menu-items">
                 <li class="menu-item"><a href="#" class="menu-link">Компания</a></li>
@@ -40,11 +39,12 @@
                 </li>
                 <li class="menu-item"><a href="#" class="menu-link">Офисы</a></li>
             </ul>
-            <select id="lang_choice_1" class="navbar__lang-list">
-                <option value="ru" class="navbar__lang-item">Ru</option>
-                <option value="eng" class="navbar__lang-item">Eng</option>
-            </select>
-            <div class="arrow-down" style="background-image: url(img/arrow_down.png);"></div>
+            <label class="custom-select">
+                <select id="lang_choice_1" class="navbar__lang-list custom-select sources" placeholder="Ru">
+                    <option value="ru" class="navbar__lang-item">Ru</option>
+                    <option value="eng" class="navbar__lang-item">Eng</option>
+                </select>
+            </label>
         </div>
     </header>
     <!---------------HEADER END------------------->
@@ -88,7 +88,7 @@
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-bus swiper-main-button slider-white-arrow" style="background-image: url(img/white__arrow_left.png)"></div>
                     <div class="slide-counter-number">
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination-0"></div>
                     </div>
                     <div class="swiper-button-next-bus swiper-main-button slider-white-arrow" style="background-image: url(img/white_arrow_right.png)"></div>
                 </div>
@@ -162,7 +162,7 @@
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-ed swiper-main-button slider-white-arrow" style="background-image: url(img/white__arrow_left.png)"></div>
                     <div class="slide-counter-number">
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination-1"></div>
                     </div>
                     <div class="swiper-button-next-ed swiper-main-button slider-white-arrow" style="background-image: url(img/white_arrow_right.png)">
                     </div>
@@ -245,7 +245,7 @@
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-sp swiper-main-button slider-white-arrow" style="background-image: url(img/white__arrow_left.png)"></div>
                     <div class="slide-counter-number">
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination-2"></div>
                     </div>
                     <div class="swiper-button-next-sp swiper-main-button slider-white-arrow" style="background-image: url(img/white_arrow_right.png)"></div>
                 </div>
@@ -309,7 +309,7 @@
                 <div class="slide-counter-wrap">
                     <div class="swiper-button-prev-mark swiper-main-button slider-white-arrow" style="background-image: url(img/white__arrow_left.png)"></div>
                     <div class="slide-counter-number">
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination-3"></div>
                     </div>
                     <div class="swiper-button-next-mark swiper-main-button slider-white-arrow" style="background-image: url(img/white_arrow_right.png)"></div>
                 </div>
@@ -460,7 +460,9 @@
     </footer>
 </div>
 <!---------------FOOTER END------------------->
-<script src="js/custom-select.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/title-page.js"></script>
