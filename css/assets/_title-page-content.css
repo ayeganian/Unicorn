@@ -3,6 +3,7 @@
     max-width: 1024px;
     padding: 0 10px;
     margin: 60px auto;
+    background-color: #151616;
 }
 
 .business-chevron-descktop {
@@ -361,7 +362,7 @@
     }
 
     .slider-white-arrow {
-        width: 20px;
+        width: 17px;
         height: 15px;
         background-repeat: no-repeat;
         background-size: contain;
