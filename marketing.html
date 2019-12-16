@@ -13,32 +13,38 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="basic-container page-wrapper">
-  <header class="header basic-container header-container header-clear-padding">
+
+<header class="header basic-container header-container header-clear-padding">
     <a href="#" class="logo-link">
-      <div class="logo" style="background-image: url(img/logo.png);"></div>
+        <div class="logo" style="background-image: url(img/logo.png);"></div>
     </a>
     <div class="icon-container" style="background-image: url(img/menu.png);"></div>
-    <div class="navbar select-arrow">
-      <a href="#" class="btn-close">&times;</a>
-      <ul class="menu-items">
-        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-        <li class="menu-item menu-item-dropdown"><a href="#" class="menu-link">Business</a>
-          <ul class="dropdown">
-            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Muitibrand development</a></li>
-            <li class="dropdown-item"><a href="#" class="dropdown-item-link">IT-education</a></li>
-            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Sport</a></li>
-            <li class="dropdown-item"><a href="#" class="dropdown-item-link">Marketing</a></li>
-          </ul>
-        </li>
-        <li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
-      </ul>
-      <select id="lang_choice_1" class="navbar__lang-list">
-        <option value="ru" class="navbar__lang-item">Ru</option>
-        <option value="eng" class="navbar__lang-item">Eng</option>
-      </select>
+    <div class="background-title-page"></div>
+    <div class="navbar">
+        <span class="btn-close">&times;</span>
+        <ul class="menu-items">
+            <li class="menu-item"><a href="#" class="menu-link">Компания</a></li>
+            <li class="menu-item menu-item-dropdown"><a href="#" class="menu-link">Бизнесы</a>
+                <ul class="dropdown">
+                    <li class="dropdown-item"><a href="#" class="dropdown-item-link">Мультиформатный девелопмент</a></li>
+                    <li class="dropdown-item"><a href="#" class="dropdown-item-link">IT-образование</a></li>
+                    <li class="dropdown-item"><a href="#" class="dropdown-item-link">Спорт</a></li>
+                    <li class="dropdown-item"><a href="#" class="dropdown-item-link">Маркетинг</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link">Офисы</a></li>
+        </ul>
+        <label class="custom-select">
+            <select id="lang_choice_1" class="navbar__lang-list custom-select sources" placeholder="Ru">
+                <option value="ru" class="navbar__lang-item">Ru</option>
+                <option value="eng" class="navbar__lang-item">Eng</option>
+            </select>
+        </label>
     </div>
-  </header>
+</header>
+
+<div class="basic-container page-wrapper">
+
 
   <section class="title-image-section">
     <div class="main-image-wrapper violet">
@@ -120,6 +126,11 @@
     </div>
   </footer>
 </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 </body>
 </html>
