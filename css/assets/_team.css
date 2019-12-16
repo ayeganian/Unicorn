@@ -2,6 +2,11 @@
     margin: 90px 0;
 }
 
+.team-section-wrapper .section-title,
+.team-section-wrapper .section-text {
+    text-align: center;
+}
+
 .text-margin {
     margin-top: 10px;
 }
@@ -137,6 +142,7 @@
     .person-dept {
         font-size: 20px;
         line-height: 24px;
+        text-transform: uppercase;
     }
 
     .person-name {
@@ -145,6 +151,11 @@
 
     .person-position {
         font-size: 18px;
+    }
+
+    .team-section-wrapper .section-title,
+    .team-section-wrapper .section-text {
+        text-align: left;
     }
 
 }
