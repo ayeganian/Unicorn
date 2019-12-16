@@ -20,7 +20,7 @@
 }
 
 .programs-card {
-    margin-right: 3%;
+    margin-right: 2%;
     z-index: 1;
     position: relative;
     margin-bottom: 35px;
@@ -28,7 +28,7 @@
     height: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-content: center;
 }
 
@@ -47,12 +47,27 @@
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
+    margin-bottom: 18px;
 }
 
 .programs-info-description {
     padding-left: 12%;
     padding-right: 10%;
     font-size: 14px;
+    margin-bottom: 28px;
+}
+
+
+@media (min-width: 702px) {
+    .programs-card-wrap {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .programs-card-wrap {
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -70,7 +85,6 @@
     }
 
     .programs-card {
-        justify-content: flex-end;
         width: 290px;
         height: 396px;
     }

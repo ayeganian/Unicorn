@@ -16,11 +16,11 @@ const sliders = [
 
 generateSliders(sliders);
 function generateSliders(array) {
-    array.forEach(item => {
+    array.forEach((item, index) => {
         return new Swiper(item.initClass, {
             loop: true,
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination' + '-' + index,
                 type: 'fraction',
             },
             navigation: {
